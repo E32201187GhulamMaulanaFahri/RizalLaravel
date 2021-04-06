@@ -12,7 +12,7 @@ class RizalController extends Controller
 
     	$pelajaran = ["MVC","Laravel","Pemrograman Lanjut"];
 
-    	return view('meong', compact('nama', 'pelajaran'));
+    	return view('meong', compact('nama', 'pelajaran')); 
     }
 
     public function create(){
@@ -37,5 +37,5 @@ class RizalController extends Controller
 
     public function destroy($id){
     	return "Metode ini nantinya digunakan untuk menghapus data user dengan id-".$id;
-    }
+    } 
 }
